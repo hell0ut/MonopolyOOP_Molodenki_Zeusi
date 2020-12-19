@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-12-19T16:01:03.345+02:00
-  initializedAtString: 2020-12-19T14:57:30.295+02:00
-  localBranches: []
+  lastUpdatedAtString: 2020-12-19T16:45:15.187+02:00
+  initializedAtString: 2020-12-19T16:45:15.138+02:00
+  localBranches:
+  - name: main
+    tracking: origin/main
   remoteBranches:
   - name: origin/main
     tracking: '[None]'
@@ -28,8 +30,14 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - main
+    values:
+    - name: main
+      remote:
+        name: origin
+        url: https://github.com/hell0ut/MonopolyOOP_Molodenki_Zeusi.git
+      trackingBranch: main
   remoteConfigBranches:
     keys:
     - origin

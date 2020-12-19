@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MonopolyPreUnity.Components.Trade
+
+class ITradeResponse : IEntityComponent
 {
-    class ITradeResponse : IEntityComponent
-    {
-    }
 }
+
