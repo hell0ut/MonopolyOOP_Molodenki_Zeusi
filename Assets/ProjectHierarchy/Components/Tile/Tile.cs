@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-class Tile : MonoBehaviour
+public class Tile : MonoBehaviour
 {
     public int Id;
     public int MapPosition;

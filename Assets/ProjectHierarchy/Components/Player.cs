@@ -4,7 +4,7 @@ using System.Text;
 using System.Runtime.Serialization;
 using UnityEngine;
 
-class Player : MonoBehaviour,IEntityComponent
+public class Player : MonoBehaviour,IEntityComponent
 {
 
     public int Id;

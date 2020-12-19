@@ -148,6 +148,8 @@
     <Compile Include="Assets\ProjectHierarchy\Requests\BuyAuctionRequest.cs" />
     <Compile Include="Assets\ProjectHierarchy\Requests\AuctionBidRequest.cs" />
     <Compile Include="Assets\ProjectHierarchy\Requests\InJailRequest.cs" />
+    <Compile Include="Assets\TemporaryScripts\TileManager.cs" />
+    <Compile Include="Assets\TemporaryScripts\PlayerManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

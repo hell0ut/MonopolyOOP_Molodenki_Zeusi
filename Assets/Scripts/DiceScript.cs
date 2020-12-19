@@ -7,10 +7,11 @@ public class DiceScript : MonoBehaviour
 {
     public int diceResult;
     public Text text;
-    public void RollDice()
+    public int RollDice()
     {
         diceResult = Random.Range(1, 12);
         text.text = "Dice Result: "+ diceResult.ToString();
+        return diceResult;
     }
 
 }
