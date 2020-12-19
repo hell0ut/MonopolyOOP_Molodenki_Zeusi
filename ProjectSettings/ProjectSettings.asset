@@ -646,8 +646,8 @@ PlayerSettings:
   vrEditorSettings: {}
   cloudServicesEnabled:
     Analytics: 1
-    Build: 0
-    Collab: 0
+    Build: 1
+    Collab: 1
     Game Performance: 0
     Purchasing: 0
     UDP: 0
@@ -670,7 +670,7 @@ PlayerSettings:
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: MonopolyOOP_Molodenki_Zeusi
-  organizationId: unity_xnrvd1sbbu21gg
+  organizationId: bardianofmandalore
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   virtualTexturingSupportEnabled: 0

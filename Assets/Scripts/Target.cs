@@ -4,8 +4,6 @@ using UnityEngine.AI;
 public class Target : MonoBehaviour
 {
     private NavMeshAgent[] navAgents;
-    private Transform targetMarker = null;
-    Camera mycam;
     float minFov      = 15f;
     float maxFov      = 90f;
     float sensitivity = 15f;
@@ -17,7 +15,7 @@ public class Target : MonoBehaviour
     private float pitch = 0.0f;
 
 
-    public Texture2D cursorTexture;
+
     public CursorMode cursorMode = CursorMode.Auto;
     public Vector2 hotSpot = Vector2.zero;
 
@@ -27,7 +25,6 @@ public class Target : MonoBehaviour
 
     private void Start()
     {
-        mycam = GetComponent<Camera>();
         navAgents = FindObjectsOfType(typeof(NavMeshAgent)) as NavMeshAgent[];
        
     }
@@ -42,15 +39,13 @@ public class Target : MonoBehaviour
 
     private void Update()
     {
-        if ( Input.GetMouseButton(1))
+        if (Input.GetMouseButton(1))
         {
-            
+
             yaw += speedH * Input.GetAxis("Mouse X");
             pitch -= speedV * Input.GetAxis("Mouse Y");
-            Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
             transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
         }
-        Cursor.SetCursor(null,hotSpot, cursorMode);
 
         var fov = Camera.main.fieldOfView;
         fov += -Input.GetAxis("Mouse ScrollWheel") * sensitivity;
@@ -65,7 +60,6 @@ public class Target : MonoBehaviour
             {
                 Vector3 targetPosition = hitInfo.point;
                 UpdateTargets(targetPosition);
-                targetMarker.position = targetPosition;
             }
         }
     }
@@ -79,8 +73,5 @@ public class Target : MonoBehaviour
         return false;
     }
 
-    private void OnDrawGizmos()
-    {
-        Debug.DrawLine(targetMarker.position, targetMarker.position + Vector3.up * 5, Color.red);
-    }
+
 }

@@ -56,7 +56,105 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Output\PrintTile.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\GameData\GameConfig.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Move\MoveTileId.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\Tile\SpecialTiles\Jail.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\PlayerState\PlayerDebt.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemState\GameOver.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Jail\JailUseCard.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Auction\IAuctionAction.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Output\PrintGameStatus.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\CollectRent.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\HSInput\Request\HSIntRequest.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Output\IOutputRequest.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Output\PrintProperties.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Output\ClearOutput.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Output\PrintCommands.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Jail\SendToJail.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\HSInput\Choice\HSPropertyChoice.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Output\PrintTradeOffer.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\HSInput\Choice\HSPropertyChoiceMultiple.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\HSInput\Choice\HSPlayerChoice.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Jail\JailPayFine.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Actions\ChangeBalanceAction.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\Trade\TradeAccept.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Output\PrintPlayerAssets.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\PlayerState\PlayerBankrupt.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\PropertyActions\SellHouse.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\ThrowDice.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\HSInput\Choice\IHSChoice.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Move\MoveSteps.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Move\MoveType.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\Trade\ITradeResponse.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\HSInput\Request\IHSRequest.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Auction\AuctionWithdraw.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Output\PrintLine.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Output\PrintPlayers.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Jail\GiveJailCard.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\Tile\Property\PropertyDevelopment.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\PropertyActions\UnmortgageProperty.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\PropertyActions\IPropertyAction.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\PlayerState\AssetTransferRequest.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Output\PrintAction.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\PropertyActions\BuildHouse.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\HSInput\Request\HSPlayerChoiceRequest.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\HSInput\Choice\HSIntChoice.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\Tile\SpecialTiles\FreeParking.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Output\PrintCashCharge.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\GameData\TurnInfo.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\HSInput\Choice\HSCommandChoice.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\Tile\Property\TrainStation.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\HSInput\Request\HSPropertyChoiceMultipleRequest.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Cash\GiveCash.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\Tile\Property\UtilityProperty.cs" />
     <Compile Include="Assets\Scripts\Target.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Actions\GoToJailAction.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\AuctionInfo.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Jail\JailDiceRoll.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\PlayerInput\Property\BuyProperty.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\Tile\ActionBox.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\PlayerInputRequest.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Actions\GoToTileIdAction.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemState\PlayerLanded.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Output\PrintCashGive.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\Tile\SpecialTiles\Go.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Actions\TaxPerHouseAction.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemState\GoPassed.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Output\PrintPlayerStatus.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Jail\IJailRequest.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\ExecuteAction.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\GameData\MapInfo.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Actions\GoToTileComponentAction.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\HSInput\Request\HSPropertyChoiceRequest.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Cash\ChargeCash.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\PlayerInput\EndTurn.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemState\GameStart.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\PropertyTransferRequest.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\Trade\TradeOffer.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\Tile\ActionTile.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\Player.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Output\PrintFormattedLine.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Move\MoveDice.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Move\IMoveRequest.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Actions\JailCardAction.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\HSInput\HSInputState.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\HSInput\Request\HSCommandChoiceRequest.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\Tile\Tile.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Actions\GiftFromPlayersAction.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\PlayerState\PaidOffDebt.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\IIdentifiable.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\GameData\Dice.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Cash\ICashOperation.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Output\PrintMap.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\PropertyActions\MortgageProperty.cs" />
+    <Compile Include="Assets\Scripts\DiceScript.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\IEntityComponent.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\Tile\Property\Property.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\Auction\AuctionBid.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\SystemRequest\PlayerInput\Property\StartAuction.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Actions\IMonopolyAction.cs" />
+    <Compile Include="Assets\ProjectHierarchy\Components\Trade\TradeRefuse.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -632,6 +730,9 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.quicksearch">
+      <HintPath>Library\ScriptAssemblies\com.unity.quicksearch.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -655,9 +756,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.quicksearch">
-      <HintPath>Library\ScriptAssemblies\com.unity.quicksearch.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
