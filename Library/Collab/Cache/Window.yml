@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Scripts/Target.cs
     - 
-    m_Values: 0101
-  RevisionSummary: 
+    m_Values: 01
+  RevisionSummary: "OMGOMGOMG \u0406\u0410\u0412\u041B\u0424\u0406\u0412\u0410\u041E\u041B\u0424\u0406\u0412\u0410"
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0

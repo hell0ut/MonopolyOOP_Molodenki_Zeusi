@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MonopolyPreUnity.Components.SystemState
+
+class GameOver : IEntityComponent
 {
-    class GameOver : IEntityComponent
-    {
-    }
 }
+

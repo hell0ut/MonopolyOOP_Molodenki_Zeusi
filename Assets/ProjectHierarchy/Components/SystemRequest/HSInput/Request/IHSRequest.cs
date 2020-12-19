@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MonopolyPreUnity.Components.SystemRequest.HSInput
+
+interface IHSRequest : IEntityComponent
 {
-    interface IHSRequest : IEntityComponent
-    {
-        public int PlayerId { get; set; }
-    }
+    public int PlayerId { get; set; }
 }
