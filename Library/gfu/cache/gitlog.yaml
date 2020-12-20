@@ -13,9 +13,411 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-12-19T20:09:11.656+02:00
-  initializedAtString: 2020-12-19T16:45:48.013+02:00
+  lastUpdatedAtString: 2020-12-20T17:01:28.280+02:00
+  initializedAtString: 2020-12-20T12:37:32.185+02:00
   log:
+  - commitID: e2354003db3b6f8cd549aa99eecb02c8ac6b696d
+    mergeA: 
+    mergeB: 
+    authorName: hell0ut
+    authorEmail: vlad.poplavsckyi@gmail.com
+    commitEmail: vlad.poplavsckyi@gmail.com
+    commitName: hell0ut
+    summary: Added dice moving script for players
+    description: 
+    timeString: 2020-12-19T21:11:02.000+02:00
+    commitTimeString: 2020-12-19T21:11:02.000+02:00
+    changes:
+    - path: .vs\MonopolyOOP_Molodenki_Zeusi\v16\.suo
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\.vs\MonopolyOOP_Molodenki_Zeusi\v16\.suo
+      projectPath: .vs\MonopolyOOP_Molodenki_Zeusi\v16\.suo
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Tile.prefab
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Assets\Prefabs\Tile.prefab
+      projectPath: Assets\Prefabs\Tile.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\ProjectHierarchy\Components\Player.cs
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Assets\ProjectHierarchy\Components\Player.cs
+      projectPath: Assets\ProjectHierarchy\Components\Player.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\ProjectHierarchy\Components\Tile\Tile.cs
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Assets\ProjectHierarchy\Components\Tile\Tile.cs
+      projectPath: Assets\ProjectHierarchy\Components\Tile\Tile.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\DiceScript.cs
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Assets\Scripts\DiceScript.cs
+      projectPath: Assets\Scripts\DiceScript.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TemporaryScripts.meta
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Assets\TemporaryScripts.meta
+      projectPath: Assets\TemporaryScripts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\TemporaryScripts\PlayerManager.cs
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Assets\TemporaryScripts\PlayerManager.cs
+      projectPath: Assets\TemporaryScripts\PlayerManager.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\TemporaryScripts\PlayerManager.cs.meta
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Assets\TemporaryScripts\PlayerManager.cs.meta
+      projectPath: Assets\TemporaryScripts\PlayerManager.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\TemporaryScripts\TileManager.cs
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Assets\TemporaryScripts\TileManager.cs
+      projectPath: Assets\TemporaryScripts\TileManager.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\TemporaryScripts\TileManager.cs.meta
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Assets\TemporaryScripts\TileManager.cs.meta
+      projectPath: Assets\TemporaryScripts\TileManager.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ArtifactDB
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\Artifacts\04\046c34787ba5e8cf31a0e5811c8c9201
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\Artifacts\04\046c34787ba5e8cf31a0e5811c8c9201
+      projectPath: Library\Artifacts\04\046c34787ba5e8cf31a0e5811c8c9201
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\08\08ab1547c3559d8218929a4988fa6654
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\Artifacts\08\08ab1547c3559d8218929a4988fa6654
+      projectPath: Library\Artifacts\08\08ab1547c3559d8218929a4988fa6654
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\0f\0ffa79a5dbd69bf2497ae1a5d0e8b220
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\Artifacts\0f\0ffa79a5dbd69bf2497ae1a5d0e8b220
+      projectPath: Library\Artifacts\0f\0ffa79a5dbd69bf2497ae1a5d0e8b220
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\16\16fd7db3635ec7f80f5c15e7c9167458
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\Artifacts\16\16fd7db3635ec7f80f5c15e7c9167458
+      projectPath: Library\Artifacts\16\16fd7db3635ec7f80f5c15e7c9167458
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\1e\1edc8ffaa27aa67226c4d7600084b01d
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\Artifacts\1e\1edc8ffaa27aa67226c4d7600084b01d
+      projectPath: Library\Artifacts\1e\1edc8ffaa27aa67226c4d7600084b01d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\20\20c24fadd6bab67d47722bf3f99f0567
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\Artifacts\20\20c24fadd6bab67d47722bf3f99f0567
+      projectPath: Library\Artifacts\20\20c24fadd6bab67d47722bf3f99f0567
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\24\24b73eb7226881687f59e351828e0d1f
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\Artifacts\24\24b73eb7226881687f59e351828e0d1f
+      projectPath: Library\Artifacts\24\24b73eb7226881687f59e351828e0d1f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\2f\2f6660b127e47f799622ba2dfaaa1c71
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\Artifacts\2f\2f6660b127e47f799622ba2dfaaa1c71
+      projectPath: Library\Artifacts\2f\2f6660b127e47f799622ba2dfaaa1c71
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\38\38da7ad9b79c16014062723dd435802c
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\Artifacts\38\38da7ad9b79c16014062723dd435802c
+      projectPath: Library\Artifacts\38\38da7ad9b79c16014062723dd435802c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\3b\3bacf56bbcab6673339c37e4c1651858
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\Artifacts\3b\3bacf56bbcab6673339c37e4c1651858
+      projectPath: Library\Artifacts\3b\3bacf56bbcab6673339c37e4c1651858
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\52\52464cbac2a27b5f3760d3441fe95410
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\Artifacts\52\52464cbac2a27b5f3760d3441fe95410
+      projectPath: Library\Artifacts\52\52464cbac2a27b5f3760d3441fe95410
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\67\672e309953fcfdfd28da7b87914c19d8
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\Artifacts\67\672e309953fcfdfd28da7b87914c19d8
+      projectPath: Library\Artifacts\67\672e309953fcfdfd28da7b87914c19d8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\81\8125423fdbdf7b4904ea75404a717a15
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\Artifacts\81\8125423fdbdf7b4904ea75404a717a15
+      projectPath: Library\Artifacts\81\8125423fdbdf7b4904ea75404a717a15
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\8a\8aae581b04f4ba45563264c7b8b6d48e
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\Artifacts\8a\8aae581b04f4ba45563264c7b8b6d48e
+      projectPath: Library\Artifacts\8a\8aae581b04f4ba45563264c7b8b6d48e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\a3\a3ac63176ce1da436b7418e439b81e8f
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\Artifacts\a3\a3ac63176ce1da436b7418e439b81e8f
+      projectPath: Library\Artifacts\a3\a3ac63176ce1da436b7418e439b81e8f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\ca\ca5b032f1c19ddba97cc13c27be2c827
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\Artifacts\ca\ca5b032f1c19ddba97cc13c27be2c827
+      projectPath: Library\Artifacts\ca\ca5b032f1c19ddba97cc13c27be2c827
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\cc\cc17593384ac25549cd1671987ddb7b6
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\Artifacts\cc\cc17593384ac25549cd1671987ddb7b6
+      projectPath: Library\Artifacts\cc\cc17593384ac25549cd1671987ddb7b6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\e6\e6e90ccaefb557450fcac3c93a75d525
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\Artifacts\e6\e6e90ccaefb557450fcac3c93a75d525
+      projectPath: Library\Artifacts\e6\e6e90ccaefb557450fcac3c93a75d525
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\f0\f0553da0cfe81e23bb471f31b8c74cc5
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\Artifacts\f0\f0553da0cfe81e23bb471f31b8c74cc5
+      projectPath: Library\Artifacts\f0\f0553da0cfe81e23bb471f31b8c74cc5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\fa\fa6720954767b94bd22e17cdf55ab4d8
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\Artifacts\fa\fa6720954767b94bd22e17cdf55ab4d8
+      projectPath: Library\Artifacts\fa\fa6720954767b94bd22e17cdf55ab4d8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Collab\Cache\Window.yml
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\Collab\Cache\Window.yml
+      projectPath: Library\Collab\Cache\Window.yml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\Collab\CollabSnapshot_1753a4de-b9ee-470f-9a4e-23249afccc2e.txt
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\Collab\CollabSnapshot_1753a4de-b9ee-470f-9a4e-23249afccc2e.txt
+      projectPath: Library\Collab\CollabSnapshot_1753a4de-b9ee-470f-9a4e-23249afccc2e.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SceneVisibilityState.asset
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ShaderCache\EditorEncounteredVariants
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\ShaderCache\EditorEncounteredVariants
+      projectPath: Library\ShaderCache\EditorEncounteredVariants
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SourceAssetDB
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\MainStageHierarchy\45\45b0385cde4e949d4a957f49e256fef6.json
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\StateCache\MainStageHierarchy\45\45b0385cde4e949d4a957f49e256fef6.json
+      projectPath: Library\StateCache\MainStageHierarchy\45\45b0385cde4e949d4a957f49e256fef6.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\PrefabStageHierarchy\2d\2d2b09e786e064bf086fc3d1ad2d7cd5.json
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\StateCache\PrefabStageHierarchy\2d\2d2b09e786e064bf086fc3d1ad2d7cd5.json
+      projectPath: Library\StateCache\PrefabStageHierarchy\2d\2d2b09e786e064bf086fc3d1ad2d7cd5.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\a9\a94584894536efb45f5556c1eb92c0a8.json
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\StateCache\SceneView\a9\a94584894536efb45f5556c1eb92c0a8.json
+      projectPath: Library\StateCache\SceneView\a9\a94584894536efb45f5556c1eb92c0a8.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp\Assembly-CSharp.dll.hash
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Temp\Assembly-CSharp.dll.hash
+      projectPath: Temp\Assembly-CSharp.dll.hash
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp\CompilationLog.txt
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Temp\CompilationLog.txt
+      projectPath: Temp\CompilationLog.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-26ddd58d49a0c5142b23be57bb2bc9d9
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Temp\UnityTempFile-26ddd58d49a0c5142b23be57bb2bc9d9
+      projectPath: Temp\UnityTempFile-26ddd58d49a0c5142b23be57bb2bc9d9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-4b7d3e6e4b00ef048ad7e1e06fa933af
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Temp\UnityTempFile-4b7d3e6e4b00ef048ad7e1e06fa933af
+      projectPath: Temp\UnityTempFile-4b7d3e6e4b00ef048ad7e1e06fa933af
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-4f3a1ed535ebaf24f880844a1da64ccc
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Temp\UnityTempFile-4f3a1ed535ebaf24f880844a1da64ccc
+      projectPath: Temp\UnityTempFile-4f3a1ed535ebaf24f880844a1da64ccc
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-6c921e2e834eda048b53810644982efd
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Temp\UnityTempFile-6c921e2e834eda048b53810644982efd
+      projectPath: Temp\UnityTempFile-6c921e2e834eda048b53810644982efd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-813461dca87072949a4382ef4d8bd65b
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Temp\UnityTempFile-813461dca87072949a4382ef4d8bd65b
+      projectPath: Temp\UnityTempFile-813461dca87072949a4382ef4d8bd65b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-97ff42d75c1aff54bbb42664a412fff3
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Temp\UnityTempFile-97ff42d75c1aff54bbb42664a412fff3
+      projectPath: Temp\UnityTempFile-97ff42d75c1aff54bbb42664a412fff3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-9e34b96aff526c6419ac0f45317f92b5
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Temp\UnityTempFile-9e34b96aff526c6419ac0f45317f92b5
+      projectPath: Temp\UnityTempFile-9e34b96aff526c6419ac0f45317f92b5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-9e3da353a8067f44b8ffb3619f4b0d32
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Temp\UnityTempFile-9e3da353a8067f44b8ffb3619f4b0d32
+      projectPath: Temp\UnityTempFile-9e3da353a8067f44b8ffb3619f4b0d32
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-be438e5ca0066694b97ada313796b9d5
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Temp\UnityTempFile-be438e5ca0066694b97ada313796b9d5
+      projectPath: Temp\UnityTempFile-be438e5ca0066694b97ada313796b9d5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-d80d39b5d72af3d45bcd7abd696ef3bf
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Temp\UnityTempFile-d80d39b5d72af3d45bcd7abd696ef3bf
+      projectPath: Temp\UnityTempFile-d80d39b5d72af3d45bcd7abd696ef3bf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-dd2fbe9bd5a3a6348b9f2e5083a11fc3
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Temp\UnityTempFile-dd2fbe9bd5a3a6348b9f2e5083a11fc3
+      projectPath: Temp\UnityTempFile-dd2fbe9bd5a3a6348b9f2e5083a11fc3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-e5fd8df4fde3af24191c7d73d4ccfc38
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Temp\UnityTempFile-e5fd8df4fde3af24191c7d73d4ccfc38
+      projectPath: Temp\UnityTempFile-e5fd8df4fde3af24191c7d73d4ccfc38
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\__Backupscenes\0.backup
+      fullPath: C:\Users\vladp\Desktop\MonopolyOOP_Molodenki_Zeusi\Temp\__Backupscenes\0.backup
+      projectPath: Temp\__Backupscenes\0.backup
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 6b75ba7465aef29bae59e762e7e72e791db72c8c
     mergeA: 
     mergeB: 
